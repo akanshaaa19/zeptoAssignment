@@ -1,0 +1,103 @@
+.part2 h5{
+    font-size: 1rem;
+    font-size: 700;
+    text-decoration: underline;
+    margin-bottom: 0.8rem;
+}
+
+.part2 p{
+    font-size: 0.8rem;
+    color: #606060;
+    margin-bottom: 1rem;
+}
+
+ .button-group button {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 48px;
+    width: 11%;
+    position: absolute;
+}
+
+.button-group{
+    position: relative;
+}
+
+
+.lifetime{
+    background-color: #0F6EFF;
+    color: #fff;
+    z-index: 3;
+}
+
+.daily{
+    background-color: #F0F0F0;
+    color: #999999;
+    left: 102px;
+    z-index: 2;
+}
+
+.part2-date{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.label-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.part2 label{
+    color: #606060;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.part2-date input{
+    background-color: transparent;
+    border: 2px solid #E9E9E9;
+    padding: 0.8rem;
+    border-radius: 10px;
+}
+
+input [type=range]{
+    background-color: #0F6EFF !important;
+}
+
+.formrange::-webkit-slider-thumb{
+    background: #1977F3;
+    border: 3px solid #fff;
+    width: 25px;
+    height: 25px;
+}
+
+.formrange{
+    appearance: auto;
+    cursor: default;
+    padding: initial;
+    border: initial;
+    margin: 2px;
+    width: 100%;
+}
+
+.range-label{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top{
+    z-index: 2;
+    background: #0F6EFF;
+    color: #fff;
+    left: 102px;
+
+  }
+  .bottom{
+    z-index: 1;
+    background-color: #F0F0F0;
+    color: #999999;
+  }
+  .col-12 input{
+    width: 100%;
+  }

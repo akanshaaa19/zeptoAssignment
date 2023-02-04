@@ -1,0 +1,94 @@
+.card{
+    padding: 1.2rem;
+    border: 2px solid #d8d8d8;
+    border-radius: 10px;
+    width: 24%;
+}
+.cardHeader{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.cardHeader img{
+    margin-right: 1rem;
+}
+
+.cardHeader h1{
+    font-size: 1rem;
+    color: #2B23A5;
+}
+
+.cardHeader p{
+    color: #767676;
+    font-size: 0.8rem;
+}
+
+.content p{
+    font-size: 0.875rem;
+}
+
+.cardImg{
+    padding-top: 1rem;
+    width: 100%;
+}
+
+.like-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.like-div{
+    align-items: center;
+    background: #F5F5F5;
+}
+
+.like-div p{
+    color: #2B23A5;
+    font-weight: 600;
+}
+
+.like-div button{
+    border: 1px solid #CED0D4;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.like-div i{
+    color: #4B4F56;
+    margin-right: 0.5rem;
+}
+
+.div-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.div-footer button{
+    color: #0F6EFF;
+    background: #0F6EFF1A;
+    border-radius: 10px;
+    border: 10px;
+    padding: 0.5rem;
+}
+
+.selected-card{
+    border: 2px solid #0F6EFF;
+}
+.selected-card i{
+    color: #0F6EFF;
+}
+.select-card{
+        position: absolute;
+        top: -8px;
+        right: -20px;
+        z-index: 50;
+        background: #fff;
+}
+
+
+
+.div-footer{
+    z-index: 50;
+}

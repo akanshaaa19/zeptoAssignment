@@ -1,0 +1,56 @@
+header{
+    width: calc(100vw - 6rem);
+    margin-left: 6rem;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem 4rem;
+    background: #fff;
+    font-size: 0.8rem;
+    border-bottom: 1px solid #DAE6FF;
+    position: sticky;
+    z-index: 20;
+    top: 0;
+}
+
+header p{
+    color: #00000099;
+    margin-right: 0.8rem;
+}
+
+header button{
+    background-color: #F29A2E1A;
+    border: none;
+    border-radius: 10px;
+    color: #FF8C00;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+    margin-right: 1.5rem;
+}
+
+.notifications img{
+    margin-right: 1.2rem;
+}
+
+header button i{
+    margin-right: 0.5rem;
+}
+
+.name{
+    color: #1B3F67;
+}
+
+.translate{
+    margin-right: 0;
+    margin-left: 1rem;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+}
+
+.user img{
+    margin-right: 0.5rem;
+}
